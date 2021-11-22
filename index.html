@@ -3,15 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://cdn.staticfile.org/tether/1.4.0/js/tether.min.js"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.2.1/jquery.floatThead.min.js" integrity="sha512-q0XkdCnK0e3QLJgYrtENEEmAv+urSGCQs/xCXF4xs+NoLfNWD+j7iMqNYXtFOQfnYDsfE4Z7phZqaHgYJrGB/g==" crossorigin="anonymous"></script>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+		<meta name="keywords" content="Marchand de biens, Achat, Revente, Rénovation, Plateau, Immobilier, Bordeaux, Gironde, Aquitaine">
+		<meta name="description" content="EX MATERIA, Marchand de biens à Bordeaux">
+		<link rel="shortcut icon" href="images/favicon.ico">
 		<style>
 		#body, #square,#back {
 			display: flex;
@@ -27,7 +21,6 @@
 		#square {
 			width: 100vmin;
 			height: 85vmin;
-			/*padding: 2em;*/
 		}
 
 		#back {
@@ -39,15 +32,31 @@
 			width: 100%;
 		}
 	
+		#front img {
+			max-width: 575px;
+			width: 100%; 
+		}
+
+		main {
+			display: none;
+		} 
 		
 		</style>
-		<title>Accueil</title>
+		<title>EX MATERIA</title>
 	</head>
 	<body>
 		<div id="body">
 			<div id="square">
 				<div id="back">
-					
+					<div id="front">
+						<img src="images/front-exm.png"/>
+						<main>
+							<h1>Bienvenue chez EX MATERIA</h1>
+							<h3>Marchand de biens à Bordeaux</h3>
+							<p>Engagé dans la valorisation du patrimoine bordelais, Ex Materia achète, rénove et revend des biens à l’abandon ou sous forme de plateau.
+							N’hésitez pas à nous contacter afin de nous soumettre un bien à l’achat, ou pour être informé des rénovations que nous commercialisons.</p>
+						</main>
+					</div>
 				</div>
 			</div>
 		</div>
